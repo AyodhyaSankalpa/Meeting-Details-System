@@ -36,7 +36,7 @@ $result = mysqli_query($conn, $query);
                     </tr>
                 </tfoot>
                 <tbody>
-                    <?php
+                    <!-- <?php
                     // Check if there are any results for the current user
                     if (mysqli_num_rows($result) > 0) {
                         // Loop through the fetched data and display it in the table
@@ -45,7 +45,7 @@ $result = mysqli_query($conn, $query);
                             $description = $row['description'];
                             $descriptionWords = explode(' ', $description);
                             $shortDescription = implode(' ', array_slice($descriptionWords, 0, 8)) . '...';  // Get the first 8 words
-                    ?>
+                    ?> -->
                     <tr>
                         <td><?php echo $row['date']; ?></td>
                         <td><?php echo $row['division']; ?></td>
