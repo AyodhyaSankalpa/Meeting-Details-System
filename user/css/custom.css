@@ -1,0 +1,16 @@
+
+    @media print {
+        .btn, .back-button, .card-header button { 
+            display: none; 
+        }
+
+        span, footer {
+            display: none; 
+        }
+
+        .navbar-brand{
+            display: none;
+        }
+        /* Add any other elements you want to hide in print */
+    }
+
